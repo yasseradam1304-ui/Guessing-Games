@@ -1,5 +1,20 @@
-"Guess the word !":
-Verify that you import "random" before playing ,
-⚠️ Please run the code in the terminal of the interface where you use python .
-"Guess the number !":
-Verify that you import "tkinter" as tk and "random" before playing . 
+GUESS THE NUMBER
+Run "Guess the number !.py" with Python 3. Enter a number from 1 to 10 and
+press Enter or click "Guess". Click "New game" to play again. Use the theme
+button to switch between light and dark mode.
+
+HANGMAN
+Run "Guess the word !.py" with Python 3. Enter one letter and press Enter or
+click "Guess". Click "New game" to start over. Use "Dark theme" or "Light theme"
+to switch the appearance.
+
+DICTIONARIES
+To load a dictionary automatically, put a UTF-8 "words.txt" file in the
+same folder as the Hangman game. It can contain one word per line or words
+separated by spaces. You can also click "Load dictionary..." and choose a .txt
+word list or a Hunspell .dic file. If no dictionary file is present, the game
+uses its built-in word list. The older "dictionnaire.txt" filename is also
+supported.
+
+Both games require Python 3 with Tkinter, which is included with most Python
+installations. No third-party packages or Internet connection are required.

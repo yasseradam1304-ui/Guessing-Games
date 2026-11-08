@@ -1,4 +1,7 @@
-"Guess the word !":
-You need just python (do not use online python) .
-"Guess the number !":
-You need to download tkinter (preferably in cmd) and python .
+Both games require Python 3 with Tkinter. Tkinter is included with most
+standard Python installations, so no additional package is usually needed.
+
+The Hangman game can use a UTF-8 "words.txt" word list placed next to the game
+script, or a .txt / Hunspell .dic dictionary selected in the game. The older
+"dictionnaire.txt" filename is also supported. An Internet connection is not
+required.
